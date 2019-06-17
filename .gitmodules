@@ -1,0 +1,9 @@
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/RENCI/dashboard.git
+[submodule "tic-map-pipeline-script"]
+	path = tic-map-pipeline-script
+	url = https://github.com/RENCI/tic-map-pipeline-script
+[submodule "ER-diagram"]
+	path = ER-diagram
+	url = https://github.com/RENCI/ER-diagram.git
