@@ -1,6 +1,6 @@
 [submodule "dashboard"]
-	path = dashboard
-	url = https://github.com/RENCI/dashboard.git
+	path = ctmd-dashboard
+	url = https://github.com/RENCI/ctmd-dashboard.git
 [submodule "tic-map-pipeline-script"]
 	path = tic-map-pipeline-script
 	url = https://github.com/RENCI/tic-map-pipeline-script
