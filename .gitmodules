@@ -7,3 +7,6 @@
 [submodule "ER-diagram"]
 	path = ER-diagram
 	url = https://github.com/RENCI/ER-diagram.git
+[submodule "tx-autht"]
+	path = tx-autht
+	url = ./tx-autht
