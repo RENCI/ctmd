@@ -9,4 +9,4 @@
 	url = https://github.com/RENCI/ER-diagram.git
 [submodule "tx-autht"]
 	path = tx-autht
-	url = ./tx-autht
+	url = http://github.com/RENCI/tx-autht.git
