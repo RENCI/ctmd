@@ -10,3 +10,6 @@
 [submodule "tx-autht"]
 	path = tx-autht
 	url = http://github.com/RENCI/tx-autht.git
+[submodule "HEAL-data-mapping"]
+	path = HEAL-data-mapping
+	url = https://github.com/RENCI/HEAL-data-mapping.git
