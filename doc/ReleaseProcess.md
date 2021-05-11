@@ -35,7 +35,7 @@ docker-compose -f docker-compose.prod.yml up --build -d -V --no-deps frontend
 ```
 cat docker-compose.prod.yml
 ```
-### Were there any changes to the HEAL-data-mapping file? If the answer is no skip the
+### Were there any changes to the HEAL-data-mapping file? If the answer is no skip the following block of code
 ```
 Check if 'data' folder exists
 cd db/
