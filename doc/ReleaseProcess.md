@@ -29,12 +29,15 @@ git branch    #check if you are on the right branch
 ```
 ### At this point, try to recollect the changes that were made for this release. If there are only frontend changes, check out your branch and run:
 ```
-docker-compose -f docker-compose.prod.yml up --build -d -V –no-deps frontend
+docker-compose -f docker-compose.prod.yml up --build -d -V –-no-deps frontend
 ```
 ### Check if the release version is correct
 ```
 cat docker-compose.prod.yml
 ```
+### Were there any changes to the HEAL-data-mapping file? If the answer is no skip the indented content
+  
+**********************************************************************
 ### Check if 'data' folder exists
 ```
 cd db/
@@ -60,6 +63,8 @@ cd dashboard/
 cd db/
 ls
 ```
+**********************************************************************  
+  
 ### Deployment
 ```
 cd ..
