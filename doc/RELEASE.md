@@ -7,6 +7,4 @@ Release notes
 * Fix Build Dockerfile issue in tic-pipeline-script 424
 * Creat deployment plan 376
 * Configure containers at build time to use local time zone 307
-* Added ability to specify test data set so you don't have to run the whole pipeline 279
- - takes c. 5 min to add only a few proposals
- - Shruti is adding more to make the test dataset bigger, has 6 proposals now
+* Added ability to specify test data set so you don't have to run the whole pipeline 279: 1) takes c. 5 min to add only a few proposals, 2)Shruti is adding more to make the test dataset bigger, has 6 proposals now
