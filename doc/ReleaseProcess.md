@@ -37,10 +37,11 @@ cat docker-compose.prod.yml
 ```
 ### Were there any changes to the HEAL-data-mapping file? If the answer is no skip the following block of code
 ```
-Check if 'data' folder exists
+**Check if 'data' folder exists**
 cd db/
 ls
-Remove 'data' folder
+
+**Remove 'data' folder**
 cd ..
 docker-compose -f docker-compose.prod.yml down
 exit
@@ -53,7 +54,8 @@ cd ..
 exit
 sudo su - web
 cd dashboard/
-Check if 'data' folder is gone
+
+**Check if 'data' folder is gone**
 cd db/
 ls
 ```
