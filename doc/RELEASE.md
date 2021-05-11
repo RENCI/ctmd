@@ -1,10 +1,12 @@
 Release notes
 
 # Release 2.0 (5/6/2021):
-* #307, #424, #376, #433, #279, #415, #421  
-* David's most recent enrollment data adjustments 421, 415
-* Changing size of API exports from REDCap to simulate pagination 433
-* Fix Build Dockerfile issue in tic-pipeline-script 424
-* Creat deployment plan 376
-* Configure containers at build time to use local time zone 307
-* Added ability to specify test data set so you don't have to run the whole pipeline 279: 1) takes c. 5 min to add only a few proposals, 2)Shruti is adding more to make the test dataset bigger, has 6 proposals now
+* [CTMD issues](https://github.com/RENCI/ctmd/issues) part of this release #279, #307, #376, #415, #421, #424, #433
+* 279- Added ability to specify test data set so you don't have to run the whole pipeline:
+  * takes c. 5 min to add only a few proposals
+  * Shruti is adding more to make the test dataset bigger, has 6 proposals now
+* 307- Configured containers at build time to use local time zone
+* 376- Deployment plan
+* 415, 421- David's most recent enrollment data adjustments
+* 424- Fixed Build Dockerfile issue in tic-pipeline-script
+* 433- Changed size of API exports from REDCap to simulate pagination
