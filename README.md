@@ -14,6 +14,13 @@ Accesses the backend image directly from dockerhub, via docker-compose
 
 Detailed documentation here: https://github.com/RENCI/ctmd-dashboard
 
+* Authentication server:
+
+Authenticates using external server, if required, as configured in ctmd-dashbaord environmental variables.
+
+Detailed documentation here: https://github.com/RENCI/tx-autht 
+Read ctmd-dashboard documentation here: https://github.com/RENCI/ctmd-dashboard#set-up-environment-variables
+
 ## Application Containers
 
 container       | repository
