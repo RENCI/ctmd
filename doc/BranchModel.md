@@ -7,7 +7,7 @@
 * Once the fix is done, create a pull request to merge into master-branch.
 * Once ready, create a branch for the release (for example, 2.1). Follow semantic versioning so that if we need to do hot fixes/patches the next branch will be 2.1.1 and so forth.
 
-For reference, click [https://nvie.com/posts/a-successful-git-branching-model/].
+For reference, click [git-branching-model](https://nvie.com/posts/a-successful-git-branching-model/).
 
 ### Use Cases
 
