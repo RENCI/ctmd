@@ -1,4 +1,4 @@
-##CTMD Branch Model
+## CTMD Branch Model
 
 * Branch off the master-branch.
 * Name the branch as follows:
@@ -9,7 +9,7 @@
 
 For reference, click [https://nvie.com/posts/a-successful-git-branching-model/].
 
-###Use Cases
+### Use Cases
 
 * Typical Use Case:
 
