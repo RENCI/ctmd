@@ -1,4 +1,4 @@
-##CTMD Backup Process
+## CTMD Backup Process
 
 Please follow the steps below to manually backup data, when needed:
 <pre>
