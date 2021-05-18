@@ -1,5 +1,7 @@
 ## CTMD Release Process
 
+### Get OK from Project Manager for an update outage
+
 ### Back up the data before beginning the deployment process
 Click the 'Backup' button on the ctmd/stage-ctmd/dev-ctmd/heal-ctmd website under 'Settings'>'Danger Zone'. To use the 'Backup' button on heal-ctmd, access level 1 is needed.
 
@@ -9,18 +11,39 @@ docker exec -it ctmd-pipeline /bin/bash
 curl -X POST localhost:5000/backup
 ```
 
-### ssh into stage-ctmd/dev-ctmd/heal-ctmd/ctmd.edc.renci.org
+### ssh into stage-ctmd/dev-ctmd/demo-ctmd/heal-ctmd/ctmd.edc.renci.org
 ```
-ssh stage-ctmd.edc.renci.org
+CTMDUSER=web
+CTMDROOT=/home/web
+CTMDHOST=ctmd
 ```
-### log-in as 'web' user
+### conditional code:
+
+for stage-ctmd.edc.renci.org, use 
 ```
-sudo su - web
+CTMDHOST=stage-${CTMDHOST}
 ```
-### log-in as 'ctmd' user if it is heal-ctmd.edc.renci.org
+for dev-ctmd.edc.renci.org, use 
 ```
+CTMDHOST=dev-${CTMDHOST}
+```
+for demo-ctmd.edc.renci.org, use 
+```
+CTMDHOST=demo-${CTMDHOST}
+```
+for heal-ctmd.edc.renci.org, use:
+```
+CTMDUSER=cmtd
+CTMDROOT=/var/opt/ctmd
+CTMDHOST=heal-${CTMDHOST}
+```
+### For all servers:
+```
+ssh ${CTMDHOST}.edc.renci.org
+sudo cd ${CTMDROOT}
+sudo mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 sudo su - ctmd
-cd /var/opt/ctmd
+docker-compose down
 ```
 ### Clone HEAL-data-mapping repository, if it's not there already
 ```
@@ -42,40 +65,15 @@ git checkout <release-branch>
 git branch    #check if you are on the right branch
 ```
 ### At this point, try to recollect the changes that were made for this release. If there are only frontend changes, check out your branch and run:
-```
-docker-compose -f docker-compose.prod.yml up --build -d -V --no-deps frontend
-```
 ### Check if the release version is correct
 ```
 cat docker-compose.prod.yml
 ```
-### Were there any changes to the HEAL-data-mapping file? If the answer is no skip the following block of code
-<pre>
-<b>Check if 'data' folder exists</b>
-cd db/
-ls
-
-<b>Remove 'data' folder</b>
-cd ..
-docker-compose -f docker-compose.prod.yml down
-exit
-sudo su
-cd ..
-cd web/dashboard/db/
-ls
-rm -rf data
-cd ..
-exit
-sudo su - web
-cd dashboard/
-
-<b>Check if 'data' folder is gone</b>
-cd db/
-ls
-</pre>
 ### Deployment
 ```
-cd ..
-ls
 docker-compose -f docker-compose.prod.yml up --build -d -V
+```
+### Ensure pipeline image version is correct
+```
+docker ps
 ```
