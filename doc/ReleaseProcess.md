@@ -1,7 +1,7 @@
 ## CTMD Release Process
 
 ### Back up the data before beginning the deployment process
-Click the 'Backup' button on the ctmd/stage-ctmd/dev-ctmd/heal-ctmd website under 'Settings' in the 'Danger Zone'. To use the 'Backup' button on heal-ctmd, access level 1 is needed.
+Click the 'Backup' button on the ctmd/stage-ctmd/dev-ctmd/heal-ctmd website under 'Settings'>'Danger Zone'. To use the 'Backup' button on heal-ctmd, access level 1 is needed.
 
 <b>Back up data using command line</b>
 ```
