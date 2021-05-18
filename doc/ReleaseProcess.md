@@ -17,7 +17,7 @@ ssh stage-ctmd.edc.renci.org
 ```
 sudo su - web
 ```
-### log-in as 'ctmd' user if its heal-ctmd.edc.renci.org
+### log-in as 'ctmd' user if it is heal-ctmd.edc.renci.org
 ```
 sudo su - ctmd
 cd /var/opt/ctmd
