@@ -1,12 +1,26 @@
 ## CTMD Release Process
 
-### ssh into stage-ctmd/dev-ctmd/ctmd.edc.renci.org
+### Back up the data before beginning the deployment process
+Click the 'Backup' button on the ctmd/stage-ctmd/dev-ctmd/heal-ctmd website under 'Settings' in the 'Danger Zone'. To use the 'Backup' button on heal-ctmd, access level 1 is needed.
+
+<b>Back up data using command line</b>
+```
+docker exec -it ctmd-pipeline /bin/bash
+curl -X POST localhost:5000/backup
+```
+
+### ssh into stage-ctmd/dev-ctmd/heal-ctmd/ctmd.edc.renci.org
 ```
 ssh stage-ctmd.edc.renci.org
 ```
 ### log-in as 'web' user
 ```
 sudo su - web
+```
+### log-in as 'ctmd' user if its heal-ctmd.edc.renci.org
+```
+sudo su - ctmd
+cd /var/opt/ctmd
 ```
 ### Clone HEAL-data-mapping repository, if it's not there already
 ```
