@@ -12,7 +12,7 @@ ls /backup
 
 <b>Data restoration commands</b>
 docker exec -it ctmd-pipeline /bin/bash
-curl -X POST localhost:5000/restore/<u>backup name replace space by %20</u>
+curl -X POST localhost:5000/restore/<mark>backup name replace space by %20</mark>
 
 <b>Check if the task is done</b>
 curl -X GET localhost:5000/task
