@@ -10,3 +10,4 @@ Release notes
 * 415, 421- David's most recent enrollment data adjustments
 * 424- Fixed Build Dockerfile issue in tic-pipeline-script
 * 433- Changed size of API exports from REDCap to simulate pagination
+* Patches: 2.0.1- Enable test data, 2.0.2- Disable authentication for test data, 2.0.3- Make the demo server work, 2.0.4- Make the restore button on the website work, 2.0.5- Fix authentication, 2.0.6- Fix for HEAL users email authorization
