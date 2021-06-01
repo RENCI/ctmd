@@ -1,3 +1,3 @@
-##Instructions for developers
+## Instructions for developers
 
-*Never commit to the master branch.
+* Never commit to the master branch.
