@@ -8,5 +8,5 @@
 * Link the concerned issue(s) with your PR and document the issue appropriately.
 * Add at least two reviewers to the PR: 1) Release Manager(RM) and 2) Person familiar with piece of code changed or added. Adding RM as reviewer is mandatory, second reviewer can be avoided in certain cases.
 * Please inform the reviewers via slack to review your PR.
-* It is the responsibility of the second reviewer and/or the developer to resolve merge conflicts (if any) before the code freeze happens.
+* It is the responsibility of the developer to resolve merge conflicts (if any) before the code freeze happens.
 * Please do not merge your PR to the master branch (it is RM's job).
