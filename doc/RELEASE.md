@@ -1,5 +1,10 @@
 # Release notes
 
+### Release 2.2 (08/02/2021):
+* CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459)
+* 338- Error-handling for CSV upload pre-parsing.
+* 459- Apache spark binary version.
+
 ### Release 2.1 (06/07/2021):
 * CTMD issue part of this release- [#397](https://github.com/RENCI/ctmd/issues/397), [#419](https://github.com/RENCI/ctmd/issues/419), [#449](https://github.com/RENCI/ctmd/issues/449)
 * 397- Change max enrollment data slider option and the range on enrollment data slider.
