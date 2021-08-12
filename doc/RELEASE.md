@@ -1,7 +1,7 @@
 # Release notes
 
 ### Release 2.2 (08/02/2021):
-* CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459)
+* CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459), [414](https://github.com/RENCI/ctmd/issues/414)
 * 338- Error-handling for CSV upload pre-parsing.
 * 459- Apache spark binary version.
 * <b>Patches</b> 2.2.1- Additional fixes for issue 338 above Pull request[#229](https://github.com/RENCI/ctmd-dashboard/pull/229)
