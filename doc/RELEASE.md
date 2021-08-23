@@ -6,7 +6,7 @@
 * 459- Apache spark binary version.
 * 414- SITE NUMBER column should allow numerals and text.
 * 460- STUDY tab is missing a field / tickbox.
-* <b>Patches</b> 2.2.1- Additional fixes for issue 338 above: Pull request[#229](https://github.com/RENCI/ctmd-dashboard/pull/229), 2.2.2- Bug fixes for issue 338: Pull request[#230](https://github.com/RENCI/ctmd-dashboard/pull/230), 2.2.3- Resolves issue 460, Bug fixes for issue 414: Pull request [#231](https://github.com/RENCI/ctmd-dashboard/pull/231), Bug fixes for issue 338: Pull request[#232](https://github.com/RENCI/ctmd-dashboard/pull/232).
+* <b>Patches</b> <b>2.2.1-</b> Additional fixes for issue 338 above: Pull request[#229](https://github.com/RENCI/ctmd-dashboard/pull/229), <b>2.2.2-</b> Bug fixes for issue 338: Pull request[#230](https://github.com/RENCI/ctmd-dashboard/pull/230), <b>2.2.3-</b> Resolves issue 460, Bug fixes for issue 414: Pull request [#231](https://github.com/RENCI/ctmd-dashboard/pull/231), Bug fixes for issue 338: Pull request[#232](https://github.com/RENCI/ctmd-dashboard/pull/232).
 
 ### Release 2.1 (06/07/2021):
 * CTMD issue part of this release- [#397](https://github.com/RENCI/ctmd/issues/397), [#419](https://github.com/RENCI/ctmd/issues/419), [#449](https://github.com/RENCI/ctmd/issues/449)
