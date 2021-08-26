@@ -1,11 +1,12 @@
 # Release notes
 
 ### Release 2.2 (08/02/2021):
-* CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459), [#414](https://github.com/RENCI/ctmd/issues/414), [#460](https://github.com/RENCI/ctmd/issues/460)
+* CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459), [#414](https://github.com/RENCI/ctmd/issues/414), [#460](https://github.com/RENCI/ctmd/issues/460), [#411](https://github.com/RENCI/ctmd/issues/411)
 * 338- Error-handling for CSV upload pre-parsing.
 * 459- Apache spark binary version.
 * 414- SITE NUMBER column should allow numerals and text.
 * 460- STUDY tab is missing a field / tickbox.
+* 411- Allow unusual characters in CSV uploads.
 * <b>Patches</b> <b>2.2.1-</b> Additional fixes for issue 338 above: Pull request[#229](https://github.com/RENCI/ctmd-dashboard/pull/229), <b>2.2.2-</b> Bug fixes for issue 338: Pull request[#230](https://github.com/RENCI/ctmd-dashboard/pull/230), <b>2.2.3-</b> Resolves issue 460, Bug fixes for issue 414: Pull request [#231](https://github.com/RENCI/ctmd-dashboard/pull/231), Bug fixes for issue 338: Pull request[#232](https://github.com/RENCI/ctmd-dashboard/pull/232).
 
 ### Release 2.1 (06/07/2021):
