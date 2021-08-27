@@ -1,7 +1,8 @@
 # Release notes
 
 ### Release 2.3 (08/30/2021):
-* CTMD issue part of this release- [#390](https://github.com/RENCI/ctmd/issues/390), [#392](https://github.com/RENCI/ctmd/issues/392), [#398](https://github.com/RENCI/ctmd/issues/398), [#399](https://github.com/RENCI/ctmd/issues/399), [#405](https://github.com/RENCI/ctmd/issues/405), [#416](https://github.com/RENCI/ctmd/issues/416), [#418](https://github.com/RENCI/ctmd/issues/418), [#461](https://github.com/RENCI/ctmd/issues/461), [#463](https://github.com/RENCI/ctmd/issues/463), [#465](https://github.com/RENCI/ctmd/issues/465)
+* CTMD issue part of this release- [#138](https://github.com/RENCI/ctmd/issues/138), [#390](https://github.com/RENCI/ctmd/issues/390), [#392](https://github.com/RENCI/ctmd/issues/392), [#398](https://github.com/RENCI/ctmd/issues/398), [#399](https://github.com/RENCI/ctmd/issues/399), [#405](https://github.com/RENCI/ctmd/issues/405), [#416](https://github.com/RENCI/ctmd/issues/416), [#418](https://github.com/RENCI/ctmd/issues/418), [#461](https://github.com/RENCI/ctmd/issues/461), [#463](https://github.com/RENCI/ctmd/issues/463), [#465](https://github.com/RENCI/ctmd/issues/465)
+* 138- Detail how env variables are being used.
 * 390/398- Closely related issues. Change denominator for % sites activated milestones. 
 * 392- Change label on metric currently named Protocol to FPFV . 
 * 399- Create STUDY ENROLLMENT donut (enrollment of patients).
