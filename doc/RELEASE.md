@@ -10,6 +10,7 @@
 * 418- Fix study milestone dates - show Dec 31, 1969.
 * 461- Create special access list for CTMD global uploads (CTSA and SITES).
 * 465- PROTOCOL in STUDIES TAB tickboxes needs to pull from a different field.
+* <b>Patches</b> <b>2.3.1-</b> Bug fix for issue 418 above: Pull request[#237](https://github.com/RENCI/ctmd-dashboard/pull/237), Bug fixes for issue 465: Pull request[#238](https://github.com/RENCI/ctmd-dashboard/pull/238)
 
 ### Release 2.2 (08/02/2021):
 * CTMD issue part of this release- [#338](https://github.com/RENCI/ctmd/issues/338), [#459](https://github.com/RENCI/ctmd/issues/459), [#414](https://github.com/RENCI/ctmd/issues/414), [#460](https://github.com/RENCI/ctmd/issues/460), [#411](https://github.com/RENCI/ctmd/issues/411)
