@@ -71,7 +71,7 @@ cat docker-compose.prod.yml
 ```
 ### Deployment
 ```
-docker-compose -f docker-compose.prod.yml up --build -d -V
+USER=$(id -u):$(id -g) docker-compose -f docker-compose.prod.yml up --build -d -V
 ```
 ### Ensure pipeline image version is correct
 ```
