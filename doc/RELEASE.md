@@ -3,6 +3,8 @@
 ### Release 2.4 (09/27/2021):
 * CTMD issue part of this release- [#463](https://github.com/RENCI/ctmd/issues/463)
 * 463- Add ACTUAL METRICS to tickboxes on STUDY tab.
+* <b>Patches</b> <b>2.4.2-</b> Pull request[#244](https://github.com/RENCI/ctmd-dashboard/pull/244), Bug fixes for the uploads issue on the website: Pull request[#245](https://github.com/RENCI/ctmd-dashboard/pull/245).
+<b>NOTE:</b> There is no 2.4.1 patch.
 
 ### Release 2.3 (08/30/2021):
 * CTMD issue part of this release- [#138](https://github.com/RENCI/ctmd/issues/138), [#390](https://github.com/RENCI/ctmd/issues/390), [#392](https://github.com/RENCI/ctmd/issues/392), [#398](https://github.com/RENCI/ctmd/issues/398), [#399](https://github.com/RENCI/ctmd/issues/399), [#416](https://github.com/RENCI/ctmd/issues/416), [#418](https://github.com/RENCI/ctmd/issues/418), [#461](https://github.com/RENCI/ctmd/issues/461), [#465](https://github.com/RENCI/ctmd/issues/465)
