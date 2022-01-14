@@ -1,15 +1,15 @@
 [submodule "dashboard"]
 	path = ctmd-dashboard
-	url = https://github.com/RENCI/ctmd-dashboard.git
+	url = git://github.com/RENCI/ctmd-dashboard.git
 [submodule "tic-map-pipeline-script"]
 	path = tic-map-pipeline-script
-	url = https://github.com/RENCI/tic-map-pipeline-script
+	url = git://github.com/RENCI/tic-map-pipeline-script
 [submodule "ER-diagram"]
 	path = ER-diagram
-	url = https://github.com/RENCI/ER-diagram.git
+	url = git://github.com/RENCI/ER-diagram.git
 [submodule "tx-autht"]
 	path = tx-autht
-	url = http://github.com/RENCI/tx-autht.git
+	url = git://github.com/RENCI/tx-autht.git
 [submodule "HEAL-data-mapping"]
 	path = HEAL-data-mapping
-	url = https://github.com/RENCI/HEAL-data-mapping.git
+	url = git://github.com/RENCI/HEAL-data-mapping.git
