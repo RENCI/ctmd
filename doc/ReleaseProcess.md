@@ -77,3 +77,13 @@ USER=$(id -u):$(id -g) docker-compose -f docker-compose.prod.yml up --build -d -
 ```
 docker ps
 ```
+### Update submodules in this repository to point to newest releases
+```
+# checkout this release recursively to get all the submodules
+git clone --recurse-submodules git@github.com:/RENCI/ctmd.git
+cd ctmd
+git submodule update --remote
+git add .
+git commit -m "git submodule updated"
+git push origin
+```
