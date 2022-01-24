@@ -1,5 +1,14 @@
 # Release notes
 
+### Release 2.5 (00/00/0000):
+* Pull requests (PRs) part of this release- [#248](https://github.com/RENCI/ctmd-dashboard/pull/248), [#249](https://github.com/RENCI/ctmd-dashboard/pull/249), [#9](https://github.com/RENCI/tic-map-pipeline-script/pull/9), [#18](https://github.com/RENCI/tic-map-pipeline-script/pull/18), [#19](https://github.com/RENCI/tic-map-pipeline-script/pull/19), [#22](https://github.com/RENCI/tic-map-pipeline-script/pull/22) 
+* 248: ctmd-dashboard PR- Get dashboard working in local environment
+* 249: ctmd-dashboard PR- Import axios to help with logging of auth error.
+* 9: tic-map-pipeline-script PR- Don't allow download of data dictionary.
+* 18: tic-map-pipeline-script PR- Make date validation follow strict formats.
+* 19: tic-map-pipeline-script PR- User check. Partially resolves [ctmd issue #461](https://github.com/RENCI/ctmd/issues/461).
+* 22: tic-map-pipeline-script PR- Allow cors in local development environment.
+
 ### Release 2.4 (09/27/2021):
 * CTMD issue part of this release- [#463](https://github.com/RENCI/ctmd/issues/463)
 * 463- Add ACTUAL METRICS to tickboxes on STUDY tab.
