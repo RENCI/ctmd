@@ -1,6 +1,6 @@
 # Release notes
 
-### Release 2.5 (00/00/0000):
+### Release 2.5 (01/25/2022):
 * Pull requests (PRs) part of this release- [#248](https://github.com/RENCI/ctmd-dashboard/pull/248), [#249](https://github.com/RENCI/ctmd-dashboard/pull/249), [#9](https://github.com/RENCI/tic-map-pipeline-script/pull/9), [#18](https://github.com/RENCI/tic-map-pipeline-script/pull/18), [#22](https://github.com/RENCI/tic-map-pipeline-script/pull/22), [#24](https://github.com/RENCI/tic-map-pipeline-script/pull/24)
 * 248: ctmd-dashboard PR- Get dashboard working in local environment
 * 249: ctmd-dashboard PR- Import axios to help with logging of auth error.
