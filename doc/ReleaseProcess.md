@@ -40,14 +40,13 @@ CTMDHOST=heal-${CTMDHOST}
 ### For all servers:
 ```
 ssh ${CTMDHOST}.edc.renci.org
-sudo cd ${CTMDROOT}
-sudo mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
-sudo su - ctmd
+sudo su -${CTMDUSER}
 docker-compose down
+mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 ```
 ### Clone HEAL-data-mapping repository, if it's not there already
 ```
-git clone https://github.com/RENCI/HEAL-data-mapping.git
+git clone --recursive https://github.com/RENCI/HEAL-data-mapping.git
 ```
 ### Update HEAL-data-mapping
 ```
@@ -58,7 +57,7 @@ git pull origin master
 ### Checkout appropriate branch
 ```
 cd ..
-cd dashboard/
+cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git, if it's not there already)
 git branch
 git fetch origin
 git checkout <release-branch>
