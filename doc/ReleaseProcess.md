@@ -69,7 +69,7 @@ git branch    #check if you are on the right branch
 ### Make sure you have all the configuration files needed for deployment (heal-users.txt, htpassword)
 
 ### Deploy latest pipeline, if it exists
-For details, refer [https://github.com/RENCI/tic-map-pipeline-script#readme]
+For details, refer https://github.com/RENCI/tic-map-pipeline-script#readme
 
 ### At this point, try to recollect the changes that were made for this release. If there are only frontend changes, check out your branch and run:
 ### Check if the release version is correct
