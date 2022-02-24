@@ -41,9 +41,6 @@ CTMDHOST=heal-${CTMDHOST}
 ```
 ssh ${CTMDHOST}.edc.renci.org
 sudo su -${CTMDUSER}
-```
-Please remember backing up the data, you can find the instructions here: [Backup Process](https://github.com/RENCI/ctmd/blob/main/doc/BackupProcess.md)
-```
 docker-compose down
 mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 ```
