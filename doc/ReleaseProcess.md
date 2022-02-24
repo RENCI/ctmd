@@ -60,18 +60,28 @@ git pull origin master
 ### Checkout appropriate branch
 ```
 cd ..
-cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git, if it's not there already)
+cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git and rename it using- mv ctmd-dashboard dashboard, if it's not there already)
 git branch
 git fetch origin
 git checkout <release-branch>
 git branch    #check if you are on the right branch
 ```
-### Make sure you have all the configuration files needed for deployment (heal-users.txt, htpassword)
+### Make sure you have all the configuration files needed for deployment (.env, heal-proposals.csv, heal-users.txt, htpassword)
+```
+cp <.env file path> .
+mkdir filter
+cp <heal-proposals.csv file path> filter
+cp <.htpasswd file path> frontend
+cp <heal-users.txt file path> api
+```
 
 ### Deploy latest pipeline, if it exists
 For details, refer https://github.com/RENCI/tic-map-pipeline-script#readme
 
 ### At this point, try to recollect the changes that were made for this release. If there are only frontend changes, check out your branch and run:
+```
+USER=$(id -u):$(id -g) docker-compose -f docker-compose.prod.yml up --build -d -V --no-deps frontend
+```
 ### Check if the release version is correct
 ```
 cat docker-compose.prod.yml
