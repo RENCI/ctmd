@@ -1,5 +1,8 @@
 # Release notes
 
+### Release 2.6 (02/25/2022):
+* Pull requests (PRs) part of this release are all from dependabot: [#253](https://github.com/RENCI/ctmd-dashboard/pull/253), [#254](https://github.com/RENCI/ctmd-dashboard/pull/254), [#255](https://github.com/RENCI/ctmd-dashboard/pull/255), [#256](https://github.com/RENCI/ctmd-dashboard/pull/256), [#257](https://github.com/RENCI/ctmd-dashboard/pull/257) 
+
 ### Release 2.5 (01/25/2022):
 * Pull requests (PRs) part of this release- [#248](https://github.com/RENCI/ctmd-dashboard/pull/248), [#249](https://github.com/RENCI/ctmd-dashboard/pull/249), [#9](https://github.com/RENCI/tic-map-pipeline-script/pull/9), [#22](https://github.com/RENCI/tic-map-pipeline-script/pull/22), [#24](https://github.com/RENCI/tic-map-pipeline-script/pull/24)
 * 248: ctmd-dashboard PR- Get dashboard working in local environment
