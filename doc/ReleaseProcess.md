@@ -16,6 +16,7 @@ curl -X POST localhost:5000/backup
 CTMDUSER=web
 CTMDROOT=/home/web
 CTMDHOST=ctmd
+CTMD_DOCKER_FLAGS="-f docker-compose.prod.yml"
 ```
 ### conditional code:
 
@@ -26,10 +27,12 @@ CTMDHOST=stage-${CTMDHOST}
 for dev-ctmd.edc.renci.org, use 
 ```
 CTMDHOST=dev-${CTMDHOST}
+CTMD_DOCKER_FLAGS="-f docker-compose.yml"
 ```
 for demo-ctmd.edc.renci.org, use 
 ```
 CTMDHOST=demo-${CTMDHOST}
+CTMD_DOCKER_FLAGS="-f docker-compose.yml"
 ```
 for heal-ctmd.edc.renci.org, use:
 ```
@@ -41,8 +44,8 @@ CTMDHOST=heal-${CTMDHOST}
 ```
 ssh ${CTMDHOST}.edc.renci.org
 sudo su -${CTMDUSER}
-docker-compose down
 cd ${CTMDROOT}
+docker-compose ${CTMD_DOCKER_FLAGS} down
 mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 ```
 ### Clone HEAL-data-mapping repository, if it's not there already
