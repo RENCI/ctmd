@@ -42,6 +42,7 @@ CTMDHOST=heal-${CTMDHOST}
 ssh ${CTMDHOST}.edc.renci.org
 sudo su -${CTMDUSER}
 docker-compose down
+cd ${CTMDROOT}
 mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 ```
 ### Clone HEAL-data-mapping repository, if it's not there already
