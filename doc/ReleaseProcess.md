@@ -89,7 +89,7 @@ cat docker-compose.prod.yml
 ```
 ### Deployment
 ```
-USER=$(id -u):$(id -g) docker-compose -f docker-compose.prod.yml up --build -d -V
+USER=$(id -u):$(id -g) docker-compose ${CTMD_DOCKER_FLAGS} up --build -d -V
 ```
 ### Restore backed up data
 Refer to this document- [Backup Process](https://github.com/RENCI/ctmd/blob/main/doc/BackupProcess.md)
