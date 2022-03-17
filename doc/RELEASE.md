@@ -1,5 +1,14 @@
 # Release notes
 
+### Release 2.7 (03/25/2022):
+Issues part of this release:
+* [488](https://github.com/RENCI/ctmd/issues/488): Change enrollment data graph to report date of enrollment data (from upload file)
+* [410](https://github.com/RENCI/ctmd/issues/410): Hover on left hand side of screen to see sister sites to toggle between (TIN, HEAL, CTMD, XXX)
+* [404](https://github.com/RENCI/ctmd/issues/404): Go to HEAL' button displays on both ctmd and heal site
+Pull requestes (PRs) part of this release: 
+* ctmd-dashboard [262](https://github.com/RENCI/ctmd-dashboard/pull/262), issue 488
+* ctmd-dashboard [#261](https://github.com/RENCI/ctmd-dashboard/pull/261), issue 404, 410
+
 ### Release 2.6 (02/25/2022):
 * Pull requests (PRs) part of this release are all from dependabot: [#253](https://github.com/RENCI/ctmd-dashboard/pull/253), [#254](https://github.com/RENCI/ctmd-dashboard/pull/254), [#255](https://github.com/RENCI/ctmd-dashboard/pull/255), [#256](https://github.com/RENCI/ctmd-dashboard/pull/256), [#257](https://github.com/RENCI/ctmd-dashboard/pull/257) 
 
