@@ -4,7 +4,9 @@
 Issues part of this release:
 * [488](https://github.com/RENCI/ctmd/issues/488): Change enrollment data graph to report date of enrollment data (from upload file)
 * [410](https://github.com/RENCI/ctmd/issues/410): Hover on left hand side of screen to see sister sites to toggle between (TIN, HEAL, CTMD, XXX)
-* [404](https://github.com/RENCI/ctmd/issues/404): Go to HEAL' button displays on both ctmd and heal site
+* [404](https://github.com/RENCI/ctmd/issues/404): Go to HEAL' button displays on both ctmd and heal 
+* [414](https://github.com/RENCI/ctmd/issues/414): HEAL & CTMD - SITE NUMBER column: allow numerals AND text:
+  + 414 had previously been addressed, but the database needed to be reset.
 Pull requestes (PRs) part of this release: 
 * ctmd-dashboard [262](https://github.com/RENCI/ctmd-dashboard/pull/262), issue 488
 * ctmd-dashboard [#261](https://github.com/RENCI/ctmd-dashboard/pull/261), issue 404, 410
