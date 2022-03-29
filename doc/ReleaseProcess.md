@@ -62,9 +62,10 @@ git pull origin master
 ```
 cd ..
 cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git and rename it using- mv ctmd-dashboard dashboard, if it's not there already)
-git branch
 git fetch origin
-git checkout <release-branch>
+git branch -v -a |grep <release-branch>
+# remotes/origin/<release-branch>
+git checkout -b <release-branch>
 git branch    #check if you are on the right branch
 ```
 ### Make sure you have all the configuration files needed for deployment (.env, heal-proposals.csv, heal-users.txt, htpassword)
