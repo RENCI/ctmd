@@ -1,5 +1,9 @@
 # Release notes
 
+### Release 2.7.1 (04/05/2022):
+This patch properly merges 262 (below):
+* ctmd-dashboard [262](https://github.com/RENCI/ctmd-dashboard/pull/262), issue 488
+
 ### Release 2.7 (03/25/2022):
 Issues part of this release:
 * [488](https://github.com/RENCI/ctmd/issues/488): Change enrollment data graph to report date of enrollment data (from upload file)
