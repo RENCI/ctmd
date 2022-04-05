@@ -66,6 +66,8 @@ git fetch origin
 git branch -v -a |grep <release-branch>
 # remotes/origin/<release-branch>
 git checkout -b <release-branch>
+# may need to do this too:
+git branch --set-upstream-to=origin/<release-branch> <release-branch>
 git branch    #check if you are on the right branch
 ```
 ### Make sure you have all the configuration files needed for deployment (.env, heal-proposals.csv, heal-users.txt, htpassword)
