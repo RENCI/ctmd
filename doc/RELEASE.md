@@ -1,12 +1,19 @@
 # Release notes
 
 ### Release 2.8 (05/05/2022):
+Internal-facing work:
+* fixed dev server
+* reset redcap user accounts that had expired
+
 Issues part of this release:
+* [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
+* [316](https://github.com/RENCI/ctmd/issues/316): Data manager button: Ticket says "blocked by #467" - but 467 is still open?
+* [499](https://github.com/RENCI/ctmd/issues/499): Broad tracking of ctmd traffic for maintenance purposes
 
 Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
 * [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd heal button, issue 316
-* []() , issue 499
+* [](): analytics-no-env-var, issue 499
 
 ### Release 2.7.1 (04/05/2022):
 This patch properly merges 262 (below):
