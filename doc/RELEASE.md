@@ -1,5 +1,13 @@
 # Release notes
 
+### Release 2.8 (05/05/2022):
+Issues part of this release:
+
+Pull requests (PRs) part of this release:
+* [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
+* [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd heal button, issue 316
+* []() , issue 499
+
 ### Release 2.7.1 (04/05/2022):
 This patch properly merges 262 (below):
 * ctmd-dashboard [262](https://github.com/RENCI/ctmd-dashboard/pull/262), issue 488
