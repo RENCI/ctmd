@@ -5,7 +5,6 @@
 Issues part of this release:
 * [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
 * [316](https://github.com/RENCI/ctmd/issues/316): Data manager button: Ticket says "blocked by #467" - but 467 is still open?
-* 
 
 Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
