@@ -1,19 +1,31 @@
 # Release notes
 
-### Release 2.8 (05/05/2022):
-Internal-facing work:
-* fixed dev server
-* reset redcap user accounts that had expired
+### Release 2.8 (05/10/2022):
 
 Issues part of this release:
 * [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
 * [316](https://github.com/RENCI/ctmd/issues/316): Data manager button: Ticket says "blocked by #467" - but 467 is still open?
-* [499](https://github.com/RENCI/ctmd/issues/499): Broad tracking of ctmd traffic for maintenance purposes
+* 
 
 Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
 * [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd heal button, issue 316
-* [](): analytics-no-env-var, issue 499
+
+Internal-facing work:
+* fixed dev server
+* reset redcap user accounts that had expired
+* [499](https://github.com/RENCI/ctmd/issues/499): Broad tracking of ctmd traffic for maintenance purposes
+* [269](https://github.com/RENCI/ctmd-dashboard/pull/269): analytics-no-env-var, issue 499
+API bumps:
+* [270](https://github.com/RENCI/ctmd-dashboard/pull/271): Bumps ansi-regex from 4.1.0 to 4.1.1.
+* [270](https://github.com/RENCI/ctmd-dashboard/pull/270): Bumps axios from 0.21.1 to 0.21.2.
+* [265](https://github.com/RENCI/ctmd-dashboard/pull/265): Bumps minimist from 1.2.5 to 1.2.6.
+Frontend bumps:
+* [273](https://github.com/RENCI/ctmd-dashboard/pull/273): Bumps lodash from 4.17.19 to 4.17.21.
+* [272](https://github.com/RENCI/ctmd-dashboard/pull/272): Bumps axios from 0.19.0 to 0.21.2.
+* [267](https://github.com/RENCI/ctmd-dashboard/pull/267): Bumps async from 2.6.2 to 2.6.4.
+* [259](https://github.com/RENCI/ctmd-dashboard/pull/259): Bumps url-parse from 1.5.7 to 1.5.10.
+* [258](https://github.com/RENCI/ctmd-dashboard/pull/258): Bumps y18n from 3.2.1 to 3.2.2.
 
 ### Release 2.7.1 (04/05/2022):
 This patch properly merges 262 (below):
