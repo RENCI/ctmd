@@ -4,11 +4,12 @@
 
 Issues part of this release:
 * [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
-* [316](https://github.com/RENCI/ctmd/issues/316): Data manager button: Ticket says "blocked by #467" - but 467 is still open?
+* [404](https://github.com/RENCI/ctmd/issues/404): 'go to HEAL' button displays on both ctmd and heal sites
+* [410](https://github.com/RENCI/ctmd/issues/410): Hover on left hand side of screen to see sister sites to toggle between (TIN, HEAL, CTMD, XXX) 
 
 Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
-* [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd heal button, issue 316
+* [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd/heal toggle button, issue 404, 410
 
 Internal-facing work:
 * fixed dev server
