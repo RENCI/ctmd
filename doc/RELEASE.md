@@ -1,6 +1,7 @@
 # Release notes
 
-### Release 2.8 (05/10/2022):
+### Release 2.8 (05/12/2022):
+Update servers to synch at 00:00 instead of 04:00
 
 Issues part of this release:
 * [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
