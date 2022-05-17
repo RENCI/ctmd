@@ -1,5 +1,17 @@
 # Release notes
 
+### Release 2.9 (TBD):
+Issues part of this release:
+* [473](https://github.com/RENCI/ctmd/issues/473) Create patient enrollment data (round graph) similar to site activation and site enrollment
+* [495](https://github.com/RENCI/ctmd/issues/495): EHR based cohort assessment tickbox has no data (stretch)
+
+Pull requests (PRs) part of this release:
+* [274](https://github.com/RENCI/ctmd-dashboard/pull/274) issue 495
+* [?](?) issue 473
+
+Internal-facing work:
+* [?](?) issue #501 [pipeline doc]: document how to install pipeline on your computer
+
 ### Release 2.8 (05/12/2022):
 Update servers to synch at 00:00 instead of 04:00
 
