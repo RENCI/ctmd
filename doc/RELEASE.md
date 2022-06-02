@@ -7,7 +7,7 @@ Issues part of this release:
 
 Pull requests (PRs) part of this release:
 * [274](https://github.com/RENCI/ctmd-dashboard/pull/274) issue 495
-* [?](?) issue 473
+* [276](https://github.com/RENCI/ctmd-dashboard/pull/276) issue 473
 
 Internal-facing work:
 * [?](?) issue #501 [pipeline doc]: document how to install pipeline on your computer
