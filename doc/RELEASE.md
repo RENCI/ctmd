@@ -6,7 +6,6 @@ Issues part of this release:
 * xxx
 
 Pull requests (PRs) part of this release:
-* xxx
 
 #### Internal-facing work:
 Tickets for internal work:
@@ -18,6 +17,7 @@ Pull requests (PRs) for internal work:
 * [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
 * [8](https://github.com/RENCI/map-pipeline/pull/8): map-pipeline, code cleanup and annotation; issue #501 [pipeline doc]: document how to install pipeline on your computer
 * [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
+* [277](https://github.com/RENCI/ctmd-dashboard/pull/277) partially addresses issue 501
 
 ### Release 2.9 (TBD):
 Issues part of this release:
