@@ -6,11 +6,16 @@ Issues part of this release:
 * [495](https://github.com/RENCI/ctmd/issues/495): EHR based cohort assessment tickbox has no data (stretch)
 
 Pull requests (PRs) part of this release:
-* [274](https://github.com/RENCI/ctmd-dashboard/pull/274) issue 495
 * [276](https://github.com/RENCI/ctmd-dashboard/pull/276) issue 473
+* [274](https://github.com/RENCI/ctmd-dashboard/pull/274) issue 495
 
-Internal-facing work:
-* [?](?) issue #501 [pipeline doc]: document how to install pipeline on your computer
+#### Internal-facing work:
+
+Pull requests (PRs) for internal work:
+* [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
+* [8](https://github.com/RENCI/map-pipeline/pull/8): map-pipeline, code cleanup and annotation; issue #501 [pipeline doc]: document how to install pipeline on your computer
+* [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
+* [275](https://github.com/RENCI/ctmd-dashboard/pull/275)Bump eventsource from 1.0.7 to 1.1.1 in /frontend
 
 ### Release 2.8 (05/12/2022):
 Update servers to synch at 03:00 instead of 04:00
@@ -25,10 +30,14 @@ Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
 * [263](https://github.com/RENCI/ctmd-dashboard/pull/263): Feature/dynamic ctmd/heal toggle button, issue 404, 410
 
-Internal-facing work:
+#### Internal-facing work:
 * fixed dev server
 * reset redcap user accounts that had expired
+
+Internal-facing Issues:
 * [499](https://github.com/RENCI/ctmd/issues/499): Broad tracking of ctmd traffic for maintenance purposes
+
+Internal-facing PRs:
 * [269](https://github.com/RENCI/ctmd-dashboard/pull/269): analytics-no-env-var, issue 499
 API bumps:
 * [270](https://github.com/RENCI/ctmd-dashboard/pull/271): Bumps ansi-regex from 4.1.0 to 4.1.1.
