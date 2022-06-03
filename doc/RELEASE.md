@@ -19,6 +19,7 @@ Issues part of this release:
 * [496](https://github.com/RENCI/ctmd/issues/496): Proposal table export headers
 * [404](https://github.com/RENCI/ctmd/issues/404): 'go to HEAL' button displays on both ctmd and heal sites
 * [410](https://github.com/RENCI/ctmd/issues/410): Hover on left hand side of screen to see sister sites to toggle between (TIN, HEAL, CTMD, XXX) 
+* [500](https://github.com/RENCI/ctmd/issues/500): set synch to happen at 3a EST
 
 Pull requests (PRs) part of this release:
 * [266](https://github.com/RENCI/ctmd-dashboard/pull/266): Proposal table export headers, issue 496
