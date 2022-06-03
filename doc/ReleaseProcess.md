@@ -83,11 +83,8 @@ cp <heal-users.txt file path> api
 ### Deploy latest pipeline, if it exists
 For details, refer https://github.com/RENCI/tic-map-pipeline-script#readme
 
-### At this point, try to recollect the changes that were made for this release. If there are only frontend changes, check out your branch and run:
-```
-sudo chown web:web /home/web/dashboard/db/data # may need to log in as a sudoer to do this
-USER=$(id -u):$(id -g) docker-compose -f docker-compose.prod.yml up --build -d -V --no-deps frontend
-```
+### At this point, try to recollect the changes that were made for this release
+
 ### Check if the release version is correct
 ```
 cat docker-compose.prod.yml
