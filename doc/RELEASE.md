@@ -1,21 +1,39 @@
 # Release notes
 
+### Release 2.10 (TBD):
+
+Issues part of this release:
+* xxx
+
+Pull requests (PRs) part of this release:
+* xxx
+
+#### Internal-facing work:
+Tickets for internal work:
+* [501](https://github.com/RENCI/ctmd/issues/501) document how to install pipeline on your own computer 
+* [511](https://github.com/RENCI/ctmd/issues/511) fix pipeline tests
+
+Pull requests (PRs) for internal work:
+* [?](?) update ctmd-dashboard/docker-compose.prod.yml to use 2.10 pipeline
+* [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
+* [8](https://github.com/RENCI/map-pipeline/pull/8): map-pipeline, code cleanup and annotation; issue #501 [pipeline doc]: document how to install pipeline on your computer
+* [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
+
 ### Release 2.9 (TBD):
 Issues part of this release:
 * [473](https://github.com/RENCI/ctmd/issues/473) Create patient enrollment data (round graph) similar to site activation and site enrollment
 * [495](https://github.com/RENCI/ctmd/issues/495): EHR based cohort assessment tickbox has no data (stretch)
 
 Pull requests (PRs) part of this release:
+
 * [276](https://github.com/RENCI/ctmd-dashboard/pull/276) issue 473
 * [274](https://github.com/RENCI/ctmd-dashboard/pull/274) issue 495
 
 #### Internal-facing work:
 
 Pull requests (PRs) for internal work:
-* [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
-* [8](https://github.com/RENCI/map-pipeline/pull/8): map-pipeline, code cleanup and annotation; issue #501 [pipeline doc]: document how to install pipeline on your computer
-* [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
-* [275](https://github.com/RENCI/ctmd-dashboard/pull/275)Bump eventsource from 1.0.7 to 1.1.1 in /frontend
+* [275](https://github.com/RENCI/ctmd-dashboard/pull/275) Bump eventsource from 1.0.7 to 1.1.1 in /frontend
+
 
 ### Release 2.8 (05/12/2022):
 Update servers to synch at 03:00 instead of 04:00
