@@ -3,9 +3,12 @@
 ### Release 2.10 (TBD):
 
 Issues part of this release:
-* xxx
+* [486](https://github.com/RENCI/ctmd/issues/486)
+* [472](https://github.com/RENCI/ctmd/issues/472)
 
 Pull requests (PRs) part of this release:
+* [?](?)
+* [?](?)
 
 #### Internal-facing work:
 Tickets for internal work:
