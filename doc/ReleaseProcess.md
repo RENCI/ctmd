@@ -65,11 +65,13 @@ git pull origin master
 cd ..
 cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git and rename it using- mv ctmd-dashboard dashboard, if it's not there already)
 git fetch origin
-git branch -v -a |grep <release-branch>
-# remotes/origin/<release-branch>
-git checkout -b <release-branch>
+# set RELEASE_BRANCH to your release, e.g., 
+# RELEASE_BRANCH=2.10
+git branch -v -a |grep ${RELEASE_BRANCH}
+# remotes/origin/${RELEASE_BRANCH}
+git checkout -b ${RELEASE_BRANCH}
 # may need to do this too:
-git branch --set-upstream-to=origin/<release-branch> <release-branch>
+git branch --set-upstream-to=origin/${RELEASE_BRANCH} ${RELEASE_BRANCH}
 git branch    #check if you are on the right branch
 git pull
 ```
