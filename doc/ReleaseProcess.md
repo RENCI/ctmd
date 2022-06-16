@@ -42,9 +42,11 @@ CTMDHOST=heal-${CTMDHOST}
 ```
 ### For all servers:
 ```
+# see above for the value of CTMDHOST variable
 ssh ${CTMDHOST}.edc.renci.org
 sudo su -${CTMDUSER}
-cd ${CTMDROOT}
+# set the variables, see above
+cd ${CTMDROOT}/dashboard
 docker-compose ${CTMD_DOCKER_FLAGS} down
 mv db/data trash # this is the ctmd database, move it out of the way or docker-compose gets permission error
 ```
