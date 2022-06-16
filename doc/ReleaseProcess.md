@@ -97,6 +97,14 @@ cat docker-compose.prod.yml
 ```
 USER=$(id -u):$(id -g) docker-compose ${CTMD_DOCKER_FLAGS} up --build -d -V
 ```
+Once ${CTMD_ROOT}/db/data has been created, you need to change the permissions on it so the ctmd-db will work; log into a different shell so you can use sudo permissions, set the variables (see above) and execute:
+```
+sudo chown ${CTMD_USER} ${CTMD_ROOT}/dashboard/db/data
+```
+Check to be sure the permission change worked with:
+```
+docker logs ctmd-db
+```
 ### Restore backed up data
 Refer to this document- [Backup Process](https://github.com/RENCI/ctmd/blob/main/doc/BackupProcess.md)
 
