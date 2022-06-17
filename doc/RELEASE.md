@@ -22,7 +22,7 @@ Pull requests (PRs) for internal work:
 * [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
 * [277](https://github.com/RENCI/ctmd-dashboard/pull/277) partially addresses issue 501
 
-### Release 2.9 (TBD):
+### Release 2.9 (6/16/2022):
 Issues part of this release:
 * [473](https://github.com/RENCI/ctmd/issues/473) Create patient enrollment data (round graph) similar to site activation and site enrollment
 * [495](https://github.com/RENCI/ctmd/issues/495): EHR based cohort assessment tickbox has no data (stretch)
