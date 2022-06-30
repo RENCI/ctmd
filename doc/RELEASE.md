@@ -1,12 +1,21 @@
 # Release notes
 
+### Release 2.11 (TBD):
+Issues part of this release:
+Pull requests (PRs) part of this release:
+
+#### Internal-facing work:
+Tickets for internal work:
+* []() update the pipeline to 2.11 (assign to Kimberly)
+Pull requests (PRs) for internal work:
+* [?](?) update ctmd-dashboard/docker-compose.prod.yml to use 2.11 pipeline (for Kimberly - change in prod and dev yamls)
+
 ### Release 2.10 (TBD):
 
 Issues part of this release:
 * [486](https://github.com/RENCI/ctmd/issues/486)
 * [472](https://github.com/RENCI/ctmd/issues/472)
 * [513](https://github.com/RENCI/ctmd/issues/513)
-
 
 Pull requests (PRs) part of this release:
 * [278](https://github.com/RENCI/ctmd-dashboard/pull/278) issue 486
@@ -19,7 +28,6 @@ Tickets for internal work:
 * [511](https://github.com/RENCI/ctmd/issues/511) fix pipeline tests
 
 Pull requests (PRs) for internal work:
-* [?](?) update ctmd-dashboard/docker-compose.prod.yml to use 2.10 pipeline
 * [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
 * [8](https://github.com/RENCI/map-pipeline/pull/8): map-pipeline, code cleanup and annotation; issue #501 [pipeline doc]: document how to install pipeline on your computer
 * [25](https://github.com/RENCI/tic-map-pipeline-script/pull/25) updated readme and submodules; issue #501
