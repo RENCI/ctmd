@@ -62,11 +62,14 @@ git pull origin master
 ```
 ### Checkout appropriate branch
 ```
+# set RELEASE_BRANCH to your release, e.g., 
+# RELEASE_BRANCH=2.10
+```
+If deploying to stage, don't forget to **create RELEASE_BRANCH** off master; it may be easiest to do this from github.
+```
 cd ..
 cd dashboard/ (NOTE: Please remember cloning https://github.com/RENCI/ctmd-dashboard.git and rename it using- mv ctmd-dashboard dashboard, if it's not there already)
 git fetch origin
-# set RELEASE_BRANCH to your release, e.g., 
-# RELEASE_BRANCH=2.10
 git branch -v -a |grep ${RELEASE_BRANCH}
 # remotes/origin/${RELEASE_BRANCH}
 git checkout -b ${RELEASE_BRANCH}
