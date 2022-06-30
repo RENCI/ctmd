@@ -9,9 +9,9 @@ Issues part of this release:
 
 
 Pull requests (PRs) part of this release:
-* [?](?)
-* [?](?)
-* [?](?)
+* [278](https://github.com/RENCI/ctmd-dashboard/pull/278) issue 486
+* [279](https://github.com/RENCI/ctmd-dashboard/pull/279) issue 472
+* [280](https://github.com/RENCI/ctmd-dashboard/pull/280) issue 513
 
 #### Internal-facing work:
 Tickets for internal work:
