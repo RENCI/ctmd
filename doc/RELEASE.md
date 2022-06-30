@@ -5,8 +5,11 @@
 Issues part of this release:
 * [486](https://github.com/RENCI/ctmd/issues/486)
 * [472](https://github.com/RENCI/ctmd/issues/472)
+* [513](https://github.com/RENCI/ctmd/issues/513)
+
 
 Pull requests (PRs) part of this release:
+* [?](?)
 * [?](?)
 * [?](?)
 
