@@ -10,7 +10,7 @@ Tickets for internal work:
 Pull requests (PRs) for internal work:
 * [?](?) update ctmd-dashboard/docker-compose.prod.yml to use 2.11 pipeline (for Kimberly - change in prod and dev yamls)
 
-### Release 2.10 (TBD):
+### Release 2.10 (07/20/2022):
 
 Issues part of this release:
 * [486](https://github.com/RENCI/ctmd/issues/486)
