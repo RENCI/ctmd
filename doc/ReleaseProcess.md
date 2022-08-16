@@ -36,7 +36,7 @@ CTMD_DOCKER_FLAGS="-f docker-compose.yml"
 ```
 for heal-ctmd.edc.renci.org, use:
 ```
-CTMDUSER=cmtd
+CTMDUSER=ctmd
 CTMDROOT=/var/opt/ctmd
 CTMDHOST=heal-${CTMDHOST}
 ```
