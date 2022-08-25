@@ -115,6 +115,12 @@ Refer to this document- [Backup Process](https://github.com/RENCI/ctmd/blob/main
 ```
 docker ps
 ```
+
+### Ensure data sync succeeds
+Data sync is set up to run automatically at midnight which can be updated by changing the `SCHEDULE_RUN_TIME` environment 
+variable. Make sure the nightly run data sync works by checking the synced data next morning or looking into the logs 
+of the pipeline container to make sure data sync succeeds as shown in the log message.  
+
 ### Update submodules in this repository to point to newest releases
 ```
 # checkout this release recursively to get all the submodules
