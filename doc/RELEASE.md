@@ -1,14 +1,25 @@
 # Release notes
 
-### Release 2.11 (TBD):
+### Release 2.11:
 Issues part of this release:
+* [471](https://github.com/renci/ctmd/issues/471)
+* [515](https://github.com/RENCI/ctmd/issues/515)
+* [511](https://github.com/RENCI/ctmd/issues/511)
+
 Pull requests (PRs) part of this release:
+* [283](https://github.com/RENCI/ctmd-dashboard/pull/283) issue 471
+* [29](https://github.com/RENCI/tic-map-pipeline-script/pull/29) issue 515
+* [27](https://github.com/RENCI/tic-map-pipeline-script/pull/27) issue 511
+* [282](https://github.com/RENCI/ctmd-dashboard/pull/282) update ctmd-dashboard to use 2.11 pipeline image
 
 #### Internal-facing work:
 Tickets for internal work:
-* []() update the pipeline to 2.11 (assign to Kimberly)
+* [511](https://github.com/RENCI/ctmd/issues/511)
+* [515](https://github.com/RENCI/ctmd/issues/515)
+
 Pull requests (PRs) for internal work:
-* [?](?) update ctmd-dashboard/docker-compose.prod.yml to use 2.11 pipeline (for Kimberly - change in prod and dev yamls)
+* [511](https://github.com/RENCI/ctmd/issues/511) fix pipeline tests
+* [282](https://github.com/RENCI/ctmd-dashboard/pull/282) update the pipeline image to 2.11 and update ctmd-dashboard/docker-compose.prod.yml to use 2.11 pipeline
 
 ### Release 2.10 (07/20/2022):
 
@@ -24,8 +35,7 @@ Pull requests (PRs) part of this release:
 
 #### Internal-facing work:
 Tickets for internal work:
-* [501](https://github.com/RENCI/ctmd/issues/501) document how to install pipeline on your own computer 
-* [511](https://github.com/RENCI/ctmd/issues/511) fix pipeline tests
+* [501](https://github.com/RENCI/ctmd/issues/501) document how to install pipeline on your own computer
 
 Pull requests (PRs) for internal work:
 * [4](https://github.com/RENCI/map-pipeline-schema/pull/4): map-pipeline-schema, remove non-null constraint; issue #501 [pipeline doc]: document how to install pipeline on your computer
