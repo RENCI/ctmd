@@ -1,5 +1,20 @@
 # Release notes
 
+### Release 2.12:
+Issues part of this release:
+* [489](https://github.com/RENCI/ctmd/issues/489)
+* [490](https://github.com/RENCI/ctmd/issues/490)
+* [510](https://github.com/RENCI/ctmd/issues/510)
+* [520](https://github.com/renci/ctmd/issues/520)
+* [523](https://github.com/RENCI/ctmd/issues/523)
+
+Pull requests (PRs) part of this release:
+* [287](https://github.com/RENCI/ctmd-dashboard/pull/287) issue 489
+* [288](https://github.com/RENCI/ctmd-dashboard/pull/288) issue 490
+* [286](https://github.com/RENCI/ctmd-dashboard/pull/286) issue 510
+* [284](https://github.com/RENCI/ctmd-dashboard/pull/284) issue 520
+* [285](https://github.com/RENCI/ctmd-dashboard/pull/285) issue 523
+
 ### Release 2.11:
 Issues part of this release:
 * [471](https://github.com/renci/ctmd/issues/471)
