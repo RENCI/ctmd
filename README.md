@@ -25,7 +25,7 @@ Read ctmd-dashboard documentation here: https://github.com/RENCI/ctmd-dashboard#
 
 container       | repository
 --------------- | --------------
-`ctmd-pipeline` | [txscience/ctmd-pipeline-reload](https://github.com/txscience/ctmd-pipeline-reload)
+`ctmd-pipeline` | [RENCI/tic-map-pipeline-script](https://github.com/renci/tic-map-pipeline-script)
 `ctmd-api`      | [RENCI/ctmd-dashboard](https://github.com/RENCI/ctmd-dashboard)
 `ctmd-db`       | [RENCI/ctmd-dashboard](https://github.com/RENCI/ctmd-dashboard)
 `ctmd-frontend` | [RENCI/ctmd-dashboard](https://github.com/RENCI/ctmd-dashboard)
