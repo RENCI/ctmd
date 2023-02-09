@@ -7,7 +7,9 @@ cd dashboard  // /var/opt/ctmd ***for heal***
 ### Make backup
 
 docker exec -it ctmd-pipeline /bin/bash
+
 curl -X POST localhost:5000/backup
+
 ls /backup
 
 ***rename backup to something more easy to use, like backup1***
